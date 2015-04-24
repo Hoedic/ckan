@@ -9,7 +9,7 @@ this.recline.View = this.recline.View || {};
 my.RecordCount = Backbone.View.extend({
   className: 'recline-record-count',
   template: ' \
-    <span class="count">{{recordCount}}</span> records \
+    <span class="count">{{recordCount}}</span> enregistrements \
   ',
 
   initialize: function() {
